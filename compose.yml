@@ -1,0 +1,8 @@
+name: pnl
+services:
+  web:
+    container_name: pnl-web
+    build: .
+    restart: unless-stopped
+    ports:
+      - 9009:3000
