@@ -111,6 +111,10 @@
 	--color-sidebar-ring: var(--sidebar-ring);
 }
 
+@theme {
+	--font-keyboard: 'Libertinus Keyboard', system-ui;
+}
+
 @layer base {
 	* {
 		@apply border-border outline-ring/50;
