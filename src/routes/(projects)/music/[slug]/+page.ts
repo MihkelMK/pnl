@@ -1,7 +1,7 @@
 import { error } from '@sveltejs/kit';
 import { getLocale } from '$lib/paraglide/runtime';
 
-export async function load({ params, depends }) {
+export async function load({ params }) {
 	try {
 		let project;
 		let translated_lyrics;
